@@ -1,0 +1,41 @@
+h2 {
+    color: aliceblue;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.add-new-player {
+    text-align: center;
+    background-color: rgb(228, 130, 85);
+    width: 30vw;
+    height: 35vh;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+
+form {
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(228, 130, 85);
+}
+
+input {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.submit-button {
+    width: 10vw;
+    height: 4vh;
+    background-color: white;
+    border: solid #db642d;
+}

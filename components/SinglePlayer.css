@@ -1,0 +1,14 @@
+.player {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(155, 13, 13);
+    height: 60vh;
+    width: 20vw;
+    border-radius: 10px;
+}
+
+img {
+    height: 40vh;
+    width: 15vw;
+    border-radius: 10px;
+}
