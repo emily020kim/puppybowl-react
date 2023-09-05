@@ -10,7 +10,7 @@ export default function AllPlayers() {
         return players.map((player) => {
             return (
                 <div key={player.id} className="players">
-                <h2>{player.name}</h2>
+                <h1 className="player-name">{player.name}</h1>
                 <h4>{player.breed}</h4>
                 <h4>{player.status}</h4>
                 <img src={player.imageUrl}/>
@@ -32,7 +32,6 @@ export default function AllPlayers() {
         await deletePlayer(playerId);
         const returnPlayer = await fetchAllPlayers();
         setPlayers(returnPlayer.data.players);
-        console.log("player id", playerId);
     };
 
     return (

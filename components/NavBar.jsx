@@ -1,11 +1,15 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import "./NavBar.css";
 
 export default function NavBar() {
     return (
         <>
         <div id="navbar">
-            <Link to="/">All Players</Link>
-            <Link to="/newplayerform">Create New Player</Link>
+            <ul>
+                <Link to="/">All Dogs</Link>
+                <Link to="/newplayerform">Add new dog</Link>
+                <Link to="/search">Search</Link>
+            </ul>
         </div>
         </>
     )

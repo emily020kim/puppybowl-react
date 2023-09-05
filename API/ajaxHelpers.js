@@ -28,9 +28,19 @@ export async function deletePlayer(playerId) {
             method: 'DELETE',
         });
         const deletePlayerData = await response.json();
-        console.log("delete player", deletePlayerData);
         return deletePlayerData.data;
     } catch (error) {
         console.error(`Oh no trouble deleting player #${playerId}!`, error);
+    }
+}
+
+export async function fetchPlayersList() {
+    try {
+        const response = await fetch(PLAYERS_API_URL);
+        const players = await response.json();
+        console.log(players);
+        return players;
+    }catch (error) {
+        console.error('Uh oh trouble fetching players', error);
     }
 }

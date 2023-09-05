@@ -1,5 +1,5 @@
 h2 {
-    color: aliceblue;
+    color: rgb(228, 130, 85);
     margin-bottom: 2rem;
     text-decoration: underline;
 }
@@ -11,31 +11,40 @@ h2 {
 
 .add-new-player {
     text-align: center;
-    background-color: rgb(228, 130, 85);
-    width: 30vw;
+    background-color: white;
+    width: 40vw;
     height: 35vh;
     margin-top: 5vh;
     border-radius: 10px;
 }
 
-form {
+.player-form {
     text-align: center;
     border-radius: 10px;
-    background-color: rgb(228, 130, 85);
+    flex-direction: column;
+    width: 30vw;
+    margin-left: 6rem;
 }
 
 input {
     text-align: center;
     margin-bottom: 20px;
+    background-color: rgb(255, 196, 0);
+    width: 10rem;
+    height: 1.5rem;
+    margin: 1rem;
+    border: 1px solid white;
+    margin-left: 3rem;
 }
 
 input::placeholder {
-    color: white;
+    color: black;
 }
 
 .submit-button {
-    width: 10vw;
-    height: 4vh;
-    background-color: white;
-    border: solid #db642d;
+    width: 5vw;
+    height: 3vh;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    margin-left: 15rem;
 }

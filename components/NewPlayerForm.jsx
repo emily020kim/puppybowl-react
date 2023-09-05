@@ -29,8 +29,9 @@ export default function NewPlayerForm() {
     return (
       <div className="add-new-player">
         <h2>Add New Player!</h2>
-        <form onSubmit={handleSubmit}>
+        <form className="player-form" onSubmit={handleSubmit}>
           <input 
+            className="new-player-input"
             type="text"
             name="name"
             placeholder="Name"
@@ -38,6 +39,7 @@ export default function NewPlayerForm() {
             onChange={(e) => setName(e.target.value)}
           />
           <input 
+            className="new-player-input"
             type="text"
             name="breed"
             placeholder="Breed"
@@ -45,6 +47,7 @@ export default function NewPlayerForm() {
             onChange={(e) => setBreed(e.target.value)}
           />
           <input 
+            className="new-player-input"
             type="text"
             name="status"
             placeholder="Status"
@@ -52,6 +55,7 @@ export default function NewPlayerForm() {
             onChange={(e) => setStatus(e.target.value)}
           />
           <input 
+            className="new-player-input"
             type="text"
             name="image"
             placeholder="Image URL"
