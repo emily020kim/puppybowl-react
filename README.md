@@ -1,8 +1,7 @@
-# React + Vite
+Puppy Bowl
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive site to help users decide which furry friend they want to adopt! Users are allowed functionalities such as adding and deleting puppies to create their dream roster of furry friends.
 
-Currently, two official plugins are available:
+Technologies used: React, Javascript, HTML, CSS, Rest APIs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deployed site: https://gorgeous-marzipan-8d81d0.netlify.app/
