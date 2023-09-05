@@ -15,14 +15,21 @@ function App() {
         <NavBar />
       </div>
       <h1>Puppy Bowl!</h1>
-      <div className="searchBar">
-        <SearchBar />
+
+      <div id="dog-animation">
+        <div className="dog-head">
+          <img src="http://www.clker.com/cliparts/j/3/Z/Y/D/5/dog-head-md.png" />
+        </div>
       </div>
+
+      <p>Create your dream team of puppies and decide which furry friend you would like to bring home!</p>
+
       <div className="main">
         <Routes>
           <Route path="/" element={<AllPlayers />} />
           <Route path="/players/:id" element={<SinglePlayer />} />
           <Route path="/newplayerform" element={<NewPlayerForm />} />
+          <Route path="/search" element={<SearchBar />} />
         </Routes>
       </div>
     </>
